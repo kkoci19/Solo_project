@@ -1,0 +1,267 @@
+.login_reg_form {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 2%;
+    border: 2px solid black;
+    width: 30%;
+    height: 520px;
+    float: left;
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: maroon;
+    color: wheat;
+    font-size: 18px;
+    float: right;
+}
+
+.error {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(232, 106, 106);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#dashboard {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    height: 80%;
+    overflow-y: scroll;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+}
+
+#textareaA {
+    margin-top: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightslategray;
+    color: black;
+}
+
+#textarea {
+    background-color: lightslategray;
+    color: black;
+}
+
+#message_button {
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: maroon;
+    color: wheat;
+    font-size: 18px;
+    float: right;
+
+}
+
+#post_box {
+    padding: 10px;
+    overflow: hidden;
+    border: 2px solid black;
+
+}
+
+#message_box {
+    border: 2px;
+    overflow-y: scroll;
+
+}
+
+#sub_message_box {
+    padding: 5px;
+    margin: 5px;
+    border: 2px;
+    border-radius: 10px;
+    background-color: cadetblue;
+
+}
+
+#sub_message_box2 {
+    margin: 10px;
+    padding: 2px;
+    border: 2px solid rgb(36, 130, 86);
+
+    border-radius: 10px;
+    overflow-y: scroll
+}
+
+#comment_box {
+    border: 2px;
+    border-radius: 10px;
+    margin-left: 3%;
+    padding: 1%;
+    overflow-y: scroll;
+    background-color: currentcolor;
+}
+
+#sub_comment_box {
+    border: 2px double black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    color: beige;
+}
+
+#comment_button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkblue;
+    color: wheat;
+    font-size: 15px;
+    display: inline-block;
+}
+
+#comment_form {
+    margin-top: 10px;
+}
+
+.specificBg {
+    /* background-color: rgb(159, 141, 143);
+    background-image: url("bground.jpeg") !important; */
+    /* background-image: url('https://www.beyondidentity.com/sites/default/files/styles/max_2600x2600/public/2022-11/image2.webp?itok=3McRWSN4'); */
+    background-image: url('https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.specificBg2 {
+    /* background-color: rgb(159, 141, 143); */
+    /* background-image: url("bground.jpeg") !important; */
+    background-image: url('https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.widthLogin {
+    width: auto !important;
+    height: 20% !important;
+    border-radius: 20px;
+}
+
+.loginForm {
+    background-color: rgba(41, 39, 39, 0.3);
+    box-shadow: 0 5px 30px black;
+    padding: 20px;
+    margin: 50px;
+}
+
+.registerForm {
+    background-color: rgba(41, 39, 39, 0.3);
+    box-shadow: 0 5px 30px black;
+    padding: 20px;
+    margin: 50px;
+}
+
+.signUp {
+    padding: 20px;
+    margin: 20px;
+}
+
+.login {
+    padding: 20px;
+    margin: 20px;
+}
+
+.row input {
+    border: none;
+    width: 80%;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+}
+
+.birthD {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    color: gray;
+    padding-left: 10px;
+}
+
+
+.btn2 {
+    padding: 10px;
+    width: 150px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: rgb(10, 136, 43);
+    border-style: none;
+    color: white;
+    font-weight: 600;
+}
+
+.btn1 {
+    margin-left: 43px;
+}
+
+.btn11 {
+    margin-left: 43px;
+}
+
+.titleForm {
+    padding-left: 50px;
+    font-style: italic;
+    font-size: 26px;
+}
+
+.titlebox1 {
+    color: mediumpurple;
+    font-style: italic;
+}
+
+.titlebox2 {
+    color: whitesmoke;
+    font-style: italic;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    color: bisque;
+}
+
+.navLogin {
+    text-decoration: none;
+    border-radius: 20px;
+    color: brown;
+    font-weight: bold;
+    padding: 5px;
+    margin: 2px;
+
+}
+
+.clickBtnComment {
+    border-radius: 10px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.clickBtn {
+    border-radius: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
